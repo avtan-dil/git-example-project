@@ -1,0 +1,397 @@
+
+
+
+
+
+
+
+               
+/* .text{
+    color: red;font-size: 30px;font-weight: bold;
+}
+
+.text2{
+    color: blue;}
+
+
+.textFade{ animation:  textFade 3s forwards; }
+   
+@keyframes  textFade {
+0%{
+    opacity: 1;
+}
+100% {
+    opacity: 0;
+}
+} */
+
+
+
+
+
+
+ /* .fadeleft{animation: fadeleft 2s forwards;}
+
+
+
+.faderight{animation: faderight 2s forwards}
+
+
+
+@keyframes fadeleft {
+0%{opacity: 1 ;}
+100%{transform: translate(-300px);opacity: 0;}
+}
+
+@keyframes faderight {
+    0%{opacity: 1 ;}
+    100%{transform: translate(300px);opacity: 0;}
+    } */
+
+
+/* #slider{
+    width: 500px;height: 500px; background-color: red;
+}
+
+
+#slider img {
+    width: 100%;height: 100%;object-fit: cover;
+}
+ */
+
+
+
+ /* .slide {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  } */
+    /* // 3 */
+  /* .slide1 {
+    background-image: url(
+  "https://media.geeksforgeeks.org/wp-content/uploads/20210812221217/pic1.png");
+  }
+  .slide2 {
+    background-image: url(
+  "https://media.geeksforgeeks.org/wp-content/uploads/20210812221254/pic2.png");
+  }
+  .slide3 {
+    background-image: url(
+  "https://media.geeksforgeeks.org/wp-content/uploads/20210812221322/pic3.png");
+  }
+  .arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  #arrow-left {
+    border-width: 20px 30px 20px 0;
+    border-color: transparent #fff transparent transparent;
+    left: 0;
+    margin-left: 20px;
+  }
+    
+  #arrow-right {
+    border-width: 20px 0 20px 30px;
+    border-color: transparent transparent transparent #fff;
+    right: 0;
+    margin-right: 20px;
+  } */
+
+/* 3 */
+
+      /* meore versia */
+
+/* .navigation .prev {
+  position: absolute;
+  z-index: 10;
+  font-size: 25px;
+  top: 40%;
+  left: 10px;
+  font-weight: 700;
+}
+.navigation .next {
+  right: 10px;
+  position: absolute;
+  font-size: 25px;
+  z-index: 10;
+  top: 40%;
+}
+.navigation .nav-btn {
+  background: rgba(255, 255, 255, 0.55);
+  cursor: pointer;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+.navigation .nav-btn:hover {
+  background: white;
+}
+
+
+.carousel {
+  margin-top: 20px;
+  transition: all 0.3s ease;
+
+}
+.carousel img {
+  width: 100%;
+  transition: all 0.3s ease;
+  border:8px solid white;
+}
+
+.item {
+  position: absolute;
+  display: none;
+}
+
+.main {
+  display: block;
+}
+
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  width: 103%;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.3);
+  height: 35px;
+}
+
+.mesame{height: 900px;width: 1800px;margin: 0 50px;} */
+
+
+
+/* meore versia */
+
+
+/* saitis pirveli gverdi  */
+
+/* 
+.header {
+  overflow: hidden;
+  background-color: rgba(0, 0, 255, 0.795);
+  padding: 20px 10px;
+opacity: 0.8;}
+
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.header a:hover {
+  opacity : 0.4;
+ 
+}
+
+
+.header a.active {
+  
+  color: white;
+}
+
+
+.header-right {
+  float: right;margin:  0 155px;color: white;
+}
+
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+
+}
+
+
+a.atag{color: white;}
+
+
+
+
+
+#divy{width: 100%;height: 700px; background-color: rgba(0, 0, 255, 0.795);opacity: 0.7;}
+
+#wreebi{width: 40px;height: 40px;background-color: white;border-radius: 50px;}
+#miniwre{visibility: hidden;color: silver;width: 150px;height: 50px;  
+  color: rgb(245, 247, 255);  
+  text-align:center;  
+  border-radius: 6px;  
+  padding: 3px 0;  
+   }
+#wreebi:hover #miniwre{visibility: visible;}
+
+
+#mtliani{background-image: url("https://www.ubuy.ge/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNzFoNlBwR2F6OUwuX0FDX1NMMTUwMF8uanBn.jpg");
+height: 780px;width: 100%;
+  }
+
+#texti{margin: 0 0;padding: 95px;font-size: 50px;}
+
+#texty{margin: 0 500px;color: black;font-size: 50px;}
+#textyori{margin: 0 500px;color: black;font-size: 50px;}
+#textysami{margin: 0 500px;color: white;font-size: 50px;}
+#textyotxi{margin: 0 500px;color: white;font-size: 50px;}
+
+
+
+#qvevit{margin: 45px 500px;color: white;font-size: 20px;word-spacing: 5px;}
+
+
+#mesamedivi{width: 100%;height: 300px;background-color: rgba(0, 0, 255, 0.795);}  */
+/* spg dasasruli */
+
+/* glow */
+  /* #samasi {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow:
+    0 0 60px 30px yellow,
+    0 0 100px 60px yellow, 
+    0 0 140px 90px yellow; 
+}   */
+/* glow */
+   
+
+
+
+      /* scroll */
+/* *{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+}
+
+.section{
+  width: 100%;
+  height: 100vh;background: red;
+}
+
+
+.section:nth-child(2){
+  width: 100%;
+  height: 100vh;background: green;
+}
+
+
+.scroll-btn {
+  position: fixed;display: flex;flex-direction: column;top: 50vh;right: 10px;
+}
+
+
+.scroll-btn button{
+  width: 20px;height: 20px;
+  border-radius: 100%;
+}
+
+
+
+.active {
+  background: rebeccapurple;
+} */
+
+
+                       /* scroll */
+
+
+
+/* #list{color: silver;}
+#minilist{position: absolute;
+  left: 170px;
+  top: 190px;font-size: 60px;color: silver;}
+ #miniminilist {color: silver;position: absolute;
+  left: 440px;
+  bottom: 125px;font-size: 15px; }
+
+  #perty{position: absolute;
+    left: 170px;
+    ;font-size: 60px;color: silver;margin: 270px 0;}
+  #pori{position: absolute;
+    left: 170px;;margin: 575px 255px;color: silver;}
+
+    #listo{color: silver;}
+    #pory{position: absolute;
+      left: 170px;
+      ;font-size: 60px;color: silver;margin: 270px 0;}
+    #pminiory{position: absolute;
+      left: 170px;;margin: 575px 255px;color: silver;}
+
+
+
+#listi{color: silver;}
+#psami{position: absolute;
+  left: 170px;
+  ;font-size: 60px;color: silver;margin: 270px 0;}
+#pminisami{position: absolute;
+  left: 170px;;margin: 575px 255px;color: silver;} */
+
+  
+
+
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+  html,
+  body{
+    width: 100%;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+  }
+
+
+  main{height: 100vh;
+  display: flex;flex-direction: column;
+justify-content: center; align-items: center;}
+
+
+h1 {
+  font-size: 250%;
+}
+ 
